@@ -1,0 +1,36 @@
+.slider {
+
+position: relative;
+height: 410px;
+width: 730px;
+}
+.slider .items {
+position: relative;
+}
+.slider .items .item {
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+
+}
+.slider .myicons{
+
+font-size: 30px;
+color: white;
+}
+.slider .myicons .prev {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+}
+.slider .myicons .next {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    z-index: 2;
+}
+.slider .items .item.active {
+z-index: 1;
+opacity: 1;
+}
