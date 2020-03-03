@@ -1,0 +1,14 @@
+.mycontent {
+   color: blue; 
+}
+.mycontent p {
+  opacity: 0;
+  z-index: 0;
+}
+.mycontent .active {
+opacity: 1;
+z-index: 1;
+}
+.list-group-item-success {
+    
+}
